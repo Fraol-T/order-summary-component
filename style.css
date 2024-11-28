@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'red hat display';
+}
+body{
+    height: 900px;
+    width: 1440px;
+    background-image: url('images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-color: #E0E8FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h2{
+    font-size: 28px;
+}
+.title{
+    font-weight: 700;
+}
+.sub{
+    font-size: 16px;
+    font-weight: 700;
+}
+main{
+    height: 679px;
+    width: 450px;
+    background-color: white;
+    border-radius: 20px;
+    padding-bottom: 18px;
+    box-shadow: 0px 30px 106.2px -13px rgba(184, 201,255, 0.25);
+}
+.image{
+    height: 220px;
+    width: 450px;
+    img{
+        border-radius: 20px 20px 0px 0px;
+    }
+}
+.order{
+    height: 134px;
+    width: 320px;
+    padding: 26px 65px 0px 65px;
+    margin: 18px 0px 18px 0px;
+    h2{
+        margin-bottom: 20px;
+    }
+    p{
+        color: rgba(0, 0, 0, 0.5);
+    }
+}
+.payment_detail{
+    height: 48px;
+    width: 302px;
+    border-radius: 10px;
+    background-color: #F8F9FE;
+    margin: 0 auto;
+    padding: 24px 28px 26px 24px;
+    display: flex;
+    align-items: center;
+    img{
+        height: 48px;
+        width: 48px;
+        margin-right: 21px;
+    }
+    p{
+        margin-right: 86px;
+    }
+    a, .sub{
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.5);
+        text-decoration: none;
+    }
+    a:hover{
+        color: #766CF1;
+    }
+
+}
+
+.payment_buttons{
+    height: 146px;
+    width: 450px;
+    margin: 18px 0px 18px 0px ;
+    button{
+        height: 50px;
+        width: 354px;
+        border-style: none;
+        border-radius: 10px;
+    }
+    .proceed{
+        background-color: #382AE1;
+        color: white;
+        margin: 18px;
+        box-shadow: 0px 26px 20px -7px rgba(56, 42,225, 0.25);
+    }
+    .proceed:hover{
+        background-color:#766CF1;
+    }
+    .cancel{
+        background-color: rgba(255, 255, 255, 0.25);
+        color: rgba(0, 0, 0, 0.5);
+        p{
+            font-weight:700;
+            font-size: 16px;
+        }
+        
+    }
+    .cancel:hover{
+        color: black;
+    }
+}
